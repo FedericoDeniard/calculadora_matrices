@@ -1,5 +1,5 @@
 build
 dist
 matrices.spec
-Packages\Packages_Arrays\__psycache__
-Packages\Packages_Input\__psycache__
+Packages/Package_Arrays/__pycache__
+Packages/Package_Input/__pycache__

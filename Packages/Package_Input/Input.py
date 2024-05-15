@@ -16,16 +16,13 @@ def get_int(message: str, error_message = "Error", attempts = 0, min = True, max
     """
     attempt = 1
     number = input(message)
-    number = int(number)
     while not validate_number(number=number, min=min, max=max):
         if attempt == attempts:
             number = None
             break
         print(error_message)
         system("pause")
-        system("cls")
         number = input(message)
-        number = int(number)
         attempt +=1
         
-    return number
+    return int(number)
